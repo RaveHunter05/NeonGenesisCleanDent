@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="navTerceroEscondido" id="esconder">
+    <div class="flexColumn centrar padding">
+      <i onclick="formulario()" class="far fa-window-close"></i>
+      <h2>Ingrese sus datos por favor</h2>
+      <div class="flexColumn">
+
+        <p>Ingrese su nombre por favor</p>
+        <input type="text" id="texto">
+        <p>Ingrese su contraseña</p>
+        <input type="password" id="contrasena">
+        <button class="button marginTop centrar" onclick="redireccionar()">Iniciar sesion</button>
+        <button class="button marginTop centrar">Crear cuenta</button>
+      </div>
+
+    </div>
+  </nav>
+
+  <nav class="primerito imagenFondo">
+
+    <div class="overlay segundito">
+      <p class="central">BIENVENIDOS</p>
+      <div class="componentes">
+
+        <p class="titulito lilright">CleanDent</p>
+        <p class="textito">Estamos conformados por un grupo<br> de especialistas en todas las<br> areas de la
+          odontología</p>
+
+        <button onclick="contacto()" class="button littleright">¿Quiénes somos?</button>
+      </div>
+    </div>
+
+
+  </nav>
+
+
+  <nav class="navPrincipal">
+
+    <div class="header">
+
+      <div id="parte1">
+        <!-- <li class="seccion1 seccion3"><a href=""><i class="fas fa-align-justify"></i></a></li>
+        <li class="seccion1 seccion3"><a href="">RESERVACIONES</a></li> -->
+        <a href="index.html">
+          <img src="componentes/fotos/image2vector.svg" alt="Aqui deberia estar la imagen  ＼(〇_ｏ)／ " height="50px">
+        </a>
+      </div>
+      <div id="parte2">
+        <li class="seccion2 seccion3 icono" id="asdf"><a href="servicios.html">SERVICIOS</a></li>
+        <li class="seccion2 seccion3 icono" id="asdf"><a href="nosotros.html">NOSOTROS</a></li>
+        <li class="seccion2 seccion3 icono"><a href="contacto.html">CONTACTO</a></li>
+        <li class="seccion2 seccion3 icono"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+        <li class="seccion2 seccion3  icono"><a href=""><i class="fab fa-instagram"></i></a></li>
+        <li class="seccion2 seccion3 icono" onclick=formulario()><i class="fas fa-user-circle"></i></li>
+
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navSegundo flexColumn">
+    <div class="flexRow ultimaParte">
+      <div>
+        <img src="componentes/fotos/dentistas4.jpeg" class="ultimaImagen" alt="">
+      </div>
+      <div class="ultimaParteDerecha">
+        <img class="imagen" src="componentes/fotos/image2vector.svg" alt="">
+        <h2>Estamos conformados por un grupo de especialistas en todas las áreas de la
+          odontología</h2>
+        <button onclick="nosotros()" class="button centrar">Más información</button>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navSegundo flexColumn">
+
+    <div class="intertarCentrar flexColumn ultimaParte centrar">
+      <div class="post flexRow ">
+        <img src="componentes/fotos/WhatsApp Image 2019-07-08 at 8.47.24 PM(1).jpeg" class="fotoCircular" alt="">
+        <div>
+          <h2>Dr. Verónica Arguello</h2>
+          <p>(Propietaria)</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatibus inventore doloribus ipsum sed
+            libero error laudantium nihil ad consequuntur? Tempora iusto fugit quos, sunt explicabo vel rerum saepe
+            inventore.</p>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+
+      </div>
+      <div class="post flexRow">
+        <img src="componentes/fotos/WhatsApp Image 2019-07-08 at 8.47.24 PM.jpeg" class="fotoCircular" alt="">
+
+        <div>
+          <h2>Dr. Emilse Palacios</h2>
+          <p>(Propietaria)</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatibus inventore doloribus ipsum sed
+            libero error laudantium nihil ad consequuntur? Tempora iusto fugit quos, sunt explicabo vel rerum saepe
+            inventore.</p>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+
+        </div>
+
+      </div>
+
+      <button onclick="contacto()" class="centrar button">Contactenos</button>
+
+    </div>
+
+  </nav>
+
+  <nav class="navTercero">
+    <div class="flexRow ultimaParte">
+      <div class="ultimaParteIzquierda">
+        <h2>
+          ¡Pida su cita ya!
+        </h2>
+        <button onclick="formulario()" class="White">Pedir cita</button>
+        <h2>
+          Pregunte por nuestras <br> promociones
+        </h2>
+      </div>
+
+      <div>
+        <img src="componentes/fotos/promocion3.jpeg" class="ultimaImagen" alt="">
+      </div>
+    </div>
+  </nav>
+
+  <footer>
+    <div class="flexRow ultimaParteFooter">
+      <div class="column">
+        <p>
+          <i class="fab fa-facebook-f"></i>
+          Facebook
+        </p>
+
+        <p>
+          <i class="fab fa-instagram"></i>
+          Instagram
+        </p>
+      </div>
+      <div class="column">
+        <img src="componentes/fotos/image2vector.svg" class="fotoCircular" alt="">
+      </div>
+      <div class="column">
+        <p>
+          Semáforos de la Vicky 1 cuadra al Este #158, 14027
+        </p>
+        <p>
+          Managua, Nicaragua
+        </p>
+        <br>
+        <p>+505 7624-7027</p>
+        <br>
+        <p><a href="mailto:cleandentni@gmail.com">cleandentni@gmail.com</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/f6a5d6affa.js"></script>
+  <script src="javascript/todo.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1788 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #F7F7F7;
+}
+
+.imagen {
+  max-width: 150px;
+
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  border-radius: 3px;
+  background: #F7F7F7;
+  /* background: none; */
+  color: #79B433;
+  line-height: 26px;
+  position: fixed;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 0;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+}
+
+
+
+.headerAdmin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  border-radius: 3px;
+  background: #79B433;
+  /* background: none; */
+  color: #F7F7F7;
+  line-height: 26px;
+  position: fixed;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 0;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+}
+
+li a {
+  text-decoration: none;
+  color: #79B433;
+  font-family: 'Work Sans', sans-serif;
+  padding: 0 20px;
+  font-size: 14px;
+  vertical-align: baseline;
+  letter-spacing: 3.5px;
+  word-spacing: 0px;
+
+
+}
+
+.seccion3::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: blue;
+  -webkit-transition: width .3s;
+  transition: width .3s
+}
+
+.seccion3:hover {
+  border-bottom: 2.8px solid #344AB5;
+  -webkit-transition: width .2s;
+  transition: width .2s;
+  height: 1.66rem;
+
+}
+
+
+#parte1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* justify-content:flex-end; */
+  padding: 0;
+  margin: 0;
+  background: #F7F7F7;
+  margin-left: 4em;
+
+}
+
+#parte1 li {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* .seccion1:hover{
+  border-bottom: 1px solid blue;  
+} */
+
+#parte2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 1rem;
+  /* background: none; */
+  background: #F7F7F7;
+  /* esto hay que cambiar para el efecto junto con el primero */
+
+}
+
+
+
+/* .seccion2:hover{
+  
+  border-bottom: 1px solid blue;
+} */
+
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Crimson Text', serif;
+  
+ } */
+
+.primerito {
+  width: 100%;
+  height: 40em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 100;
+  /* font-style: italic; */
+  font-variant: normal;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  /* text-align: center; */
+  text-indent: 0px;
+
+  line-height: 51px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-image: url(componentes/fotos/dentista3.jpeg);
+
+
+}
+
+.primerito2 {
+
+  width: 100%;
+  height: 40em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 100;
+  /* font-style: italic; */
+  font-variant: normal;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  /* text-align: center; */
+  text-indent: 0px;
+
+  line-height: 51px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-image: url(componentes/fotos/dentista.jpeg);
+
+
+}
+
+.primerito3 {
+
+  width: 100%;
+  height: 40em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 100;
+  /* font-style: italic; */
+  font-variant: normal;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  /* text-align: center; */
+  text-indent: 0px;
+
+  line-height: 51px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-image: url(componentes/fotos/dentistas4.jpeg);
+  background-position: top;
+  background-attachment: fixed;
+
+
+}
+
+.primerito4 {
+
+  width: 100%;
+  height: 40em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 100;
+  /* font-style: italic; */
+  font-variant: normal;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  /* text-align: center; */
+  text-indent: 0px;
+
+  line-height: 51px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-image: url(componentes/fotos/clientes1.jpeg);
+  background-position: top;
+  background-attachment: fixed;
+
+
+}
+
+
+.primerito h2,
+h1 {
+
+  -ms-flex-item-align: start;
+
+      align-self: flex-start;
+  font-size: 35px;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+
+
+#parte2 li {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  color: #79B433;
+
+}
+
+.imagenFondo {
+  /* background: #fff fixed no-repeat 50% 50%; */
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 650px;
+  /* overflow: hidden; */
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8)
+}
+
+.overlayMedio {
+  position: absolute;
+  top: 50;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.8)
+}
+
+.tercerito {
+  width: 100%;
+  height: 40%;
+
+}
+
+.segundito {
+
+  width: 100%;
+  height: 40em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+  font-weight: 100;
+  /* font-style: italic; */
+  font-variant: normal;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  /* text-align: center; */
+  text-indent: 0px;
+
+  line-height: 31px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+
+
+}
+
+
+.segundito h2,
+h1,
+h3 {
+
+  -ms-flex-item-align: start;
+
+      align-self: flex-start;
+  font-size: 35px;
+  font-family: 'Work Sans', sans-serif;
+
+
+}
+
+
+
+.button {
+  height: 3rem;
+  width: 10rem;
+  background: #72BB24;
+  border-radius: 50px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+
+}
+
+.lilright {
+  margin-left: 0.6em;
+}
+
+.littleright {
+  margin-left: 3em;
+}
+
+.componentes {
+  margin-left: 3em;
+}
+
+.central {
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-style: italic;
+  font-size: 4em;
+  letter-spacing: 10px;
+}
+
+.titulito {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.textito {
+  font-size: 1.8em;
+  font-style: italic;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flexColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+
+}
+
+.flexRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: initial;
+      flex-wrap: initial;
+}
+
+.navSegundo {
+  height: 40em;
+  width: 100%;
+  position: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #EEFFD9;
+  margin-top: 7rem;
+
+}
+
+.albumOriginal {
+  height: 40em;
+  width: 100%;
+  background: #F3FFD9;
+}
+
+
+.album {
+  padding: 3em;
+  width: 15em;
+  height: 100px;
+}
+
+.centrar {
+  justify-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+.fotoCircular {
+  height: 12em;
+  width: 12em;
+  border-radius: 50%;
+  border: 3px solid #79B433;
+  margin: 3em;
+}
+
+.fotoCircular1 {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  border: 3px solid #79B433;
+  margin: 0em 3em 0em 3em;
+}
+
+.post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10%;
+}
+
+
+
+.navTercero {
+  height: 700px;
+  width: 100%;
+  /* position: inherit; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ultimaParte {
+  padding: 5em;
+}
+
+.ultimaParte>div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.ultimaParteIzquierda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #79B433;
+  color: white;
+  text-align: center;
+}
+
+.ultimaImagen {
+  max-height: 100rem;
+  max-width: 100rem;
+}
+
+.White {
+  height: 3rem;
+  width: 10rem;
+  border-radius: 50px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  background: white;
+  color: #79B433;
+}
+
+.ultimaParteFooter {
+  height: 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F7F7F7;
+  color: #79B433;
+  text-align: center;
+  padding: 6rem;
+  /* padding: 10rem;
+  padding: 1rem; */
+  /* margin-top: 5rem; */
+}
+
+.ultimaParteDerecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F7F7F7;
+  text-align: center;
+}
+
+.column {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.padding {
+  padding: 3em;
+}
+
+.marginTop {
+  margin-top: 2em;
+}
+
+.spaceBetween {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sectionContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2px;
+  flex-wrap: wrap;
+}
+
+.parteIzquierda {
+  max-width: 50%;
+}
+
+.parteDerecha {
+  max-width: 50%;
+
+}
+
+.parteDerecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+}
+
+.parteDerecha input {
+  width: 15rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  height: 2rem;
+}
+
+.texto {
+  width: 15rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.fotoCircular1 {
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  border: 3px solid #79B433;
+  margin: 3em;
+}
+
+.empresa {
+  /* background-color: #72BB24; */
+  height: 6rem;
+  width: 100%;
+  color: #EEFFD9;
+  /* box-shadow: 0rem 5px 5px 0rem black; */
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0 auto;
+  padding: 1rem;
+  background-image: url(componentes/fotos/servicios1.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.empresa>* {
+  background-color: #72BB24;
+}
+
+.empresa h2 {
+  float: right;
+  padding: 2.1rem 1rem 1rem 1rem;
+  margin-right: 40rem;
+  margin-top: 4.1rem;
+}
+
+.empresap {
+  background-color: #D7FFC4;
+  padding: 2rem 5rem 2rem 5rem;
+}
+
+.empresa1{
+  background-color: red;
+  height: 6rem;
+  width: 100%;
+  /* display: inline-flex; */
+  background-image: url(componentes/fotos/servicios3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.empresa1>*{
+  background-color: #72BB24;
+}
+
+.empresa1 h2{
+  color: #D7FFC4;
+}
+
+.empresa1 h2:nth-child(1){
+  float:left;
+  padding: 2.1rem 1rem 1rem 1rem;
+  margin-top: 3rem;
+  margin-left: 20rem;
+}
+
+.empresa1 h2:nth-child(2){
+  float: right;
+  padding: 2.1rem 1rem 1rem 1rem;
+  margin-top: 3rem;
+  margin-right: 20rem;
+}
+
+.empresap1{
+  background-color: #D7FFC4;
+  padding: 2rem 5rem 2rem 5rem;
+  height: 9rem;
+
+}
+
+.empresap1 p:nth-child(1){
+  float: left;
+  margin-left: 2rem;
+  text-align: center;
+  width: 15rem;
+  margin-top: 1rem;
+  margin-left: -10rem;
+}
+
+.empresap1 p:nth-child(2){
+  float:right;
+  margin-right: 2rem;
+  text-align: center;
+  width: 15rem;
+  margin-top:1rem;
+  margin-right: -10rem;
+}
+
+.doctores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5rem;
+}
+
+.doctores1{
+  text-align: center;
+}
+
+footer{
+  border-top: 1px solid black;
+  padding: 2rem;
+}
+
+.comentarioFace{
+  text-align: center;
+  width: 50rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  -webkit-box-shadow: 0px 5px 5px 0px black;
+          box-shadow: 0px 5px 5px 0px black;
+}
+
+.comentarioFace h2{
+  color: blue;
+}
+
+
+.comentarioFace{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  background-color: white;
+  text-align: left;
+}
+
+.nombre{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 2rem;
+}
+
+.ultimoNosotros{
+  background-image: url(componentes/fotos/dentistas4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 1rem;
+}
+
+.navTerceroEscondido {
+  height: 30rem;
+  width: 30%;
+  position: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  visibility: hidden;
+  position: fixed;
+  z-index: 5000;
+  background: #79B433;
+  border: 1px solid black;
+  border-radius: 15px;
+  top: 15%;
+  left: 35%;
+  overflow:scroll;
+}
+
+.icono{
+  cursor: pointer;
+}
+
+
+@media(max-width:360px){
+  html {
+    box-sizing: border-box;
+  }
+  
+
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  
+  /* img{
+    max-width: 20rem;
+    max-height: 20rem;
+  } */
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: #F7F7F7;
+  }
+  
+  .imagen {
+    max-width: 15rem;
+  
+  }
+  
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style-type: none;
+    border-radius: 3px;
+    background: #F7F7F7;
+    /* background: none; */
+    color: #79B433;
+    line-height: none;
+    position: fixed;
+    --tamaño:21rem;
+    width: var(--tamaño);
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    top: 0;
+    vertical-align: baseline;
+    letter-spacing: 0ch;
+    word-spacing: 0px;
+    flex-direction: row;
+  }
+  
+  #parte2{
+    /* overflow: hidden; */
+    /* flex-wrap: wrap; */
+    /* overflow: visible; */
+    overflow: hidden;
+  }
+  
+  .headerAdmin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style-type: none;
+    border-radius: 3px;
+    background: #79B433;
+    /* background: none; */
+    color: #F7F7F7;
+    line-height: 26px;
+    position: fixed;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    top: 0;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #79B433;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0 0.1rem;
+    font-size: 0.7rem;
+    vertical-align:0;
+    letter-spacing: none;
+  
+  
+  }
+  
+  .seccion3::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0px;
+    background: blue;
+    -webkit-transition: width .3s;
+    transition: width .3s
+  }
+  
+  .seccion3:hover {
+    border-bottom: 2.8px solid #344AB5;
+    -webkit-transition: width .2s;
+    transition: width .2s;
+    height: 1.66rem;
+  
+  }
+  
+  
+  #parte1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* justify-content:flex-end; */
+    padding: 0;
+    margin: 0;
+    background: #F7F7F7;
+    margin-left: 1em;
+  
+  }
+  
+  #parte1 li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* .seccion1:hover{
+    border-bottom: 1px solid blue;  
+  } */
+  
+  #parte2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0.3;
+        -ms-flex: 0.3;
+            flex: 0.3;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 1rem;
+    /* background: none; */
+    background: #F7F7F7;
+    /* esto hay que cambiar para el efecto junto con el primero */
+  
+  }
+  
+  
+  
+  /* .seccion2:hover{
+    
+    border-bottom: 1px solid blue;
+  } */
+  
+  
+  body {
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  /* h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Crimson Text', serif;
+    
+   } */
+  
+  .primerito {
+    width: 100%;
+    height: 40em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 100;
+    /* font-style: italic; */
+    font-variant: normal;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    /* text-align: center; */
+    text-indent: 0px;
+  
+    line-height: 51px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-image: url(componentes/fotos/dentista3.jpeg);
+  
+  
+  }
+  
+  .primerito2 {
+  
+    width: 100%;
+    height: 40em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 100;
+    /* font-style: italic; */
+    font-variant: normal;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    /* text-align: center; */
+    text-indent: 0px;
+  
+    line-height: 51px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-image: url(componentes/fotos/dentista.jpeg);
+  
+  
+  }
+  
+  .primerito3 {
+  
+    width: 100%;
+    height: 40em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 100;
+    /* font-style: italic; */
+    font-variant: normal;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    /* text-align: center; */
+    text-indent: 0px;
+  
+    line-height: 51px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-image: url(componentes/fotos/dentistas4.jpeg);
+    background-position: top;
+    background-attachment: fixed;
+  
+  
+  }
+  
+  .primerito4 {
+  
+    width: 100%;
+    height: 40em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 100;
+    /* font-style: italic; */
+    font-variant: normal;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    /* text-align: center; */
+    text-indent: 0px;
+  
+    line-height: 51px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-image: url(componentes/fotos/clientes1.jpeg);
+    background-position: top;
+    background-attachment: fixed;
+  
+  
+  }
+  
+  
+  .primerito h2,
+  h1 {
+  
+    -ms-flex-item-align: start;
+  
+        align-self: flex-start;
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+  
+  }
+  
+  
+  
+  #parte2 li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    color: #79B433;
+  
+  }
+  
+  .imagenFondo {
+    /* background: #fff fixed no-repeat 50% 50%; */
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 650px;
+    /* overflow: hidden; */
+  
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8)
+  }
+  
+  .overlayMedio {
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.8)
+  }
+  
+  .tercerito {
+    width: 100%;
+    height: 40%;
+  
+  }
+  
+  .segundito {
+  
+    width: 100%;
+    height: 40em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  
+    font-weight: 100;
+    /* font-style: italic; */
+    font-variant: normal;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    /* text-align: center; */
+    text-indent: 0px;
+  
+    line-height: 31px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+  
+  
+  }
+  
+  
+  .segundito h2,
+  h1,
+  h3 {
+  
+    -ms-flex-item-align: start;
+  
+        align-self: flex-start;
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+  
+  
+  }
+  
+  
+  
+  .button {
+    height: 3rem;
+    width: 10rem;
+    background: #72BB24;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+  
+  }
+  
+  .lilright {
+    margin-left: 0.6em;
+  }
+  
+  .littleright {
+    margin-left: 3em;
+  }
+  
+  .componentes {
+    margin-left: 3em;
+  }
+  
+  .central {
+    -ms-flex-item-align: center;
+        align-self: center;
+    font-style: italic;
+    font-size: 2em;
+    letter-spacing: 0.3rem;
+  }
+  
+  .titulito {
+    font-size:1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .textito {
+    font-size: 1em;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .flexColumn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  
+  }
+  
+  .flexRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-wrap: initial;
+        flex-wrap: initial;
+  }
+  
+  .navSegundo {
+    height: 40em;
+    width: var(--tamaño);
+    position: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #EEFFD9;
+    
+  }
+  
+  .albumOriginal {
+    height: 40em;
+    width: 100%;
+    background: #F3FFD9;
+  }
+  
+  
+  .album {
+    padding: 3em;
+    width: 15em;
+    height: 100px;
+  }
+  
+  .centrar {
+    justify-self: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    text-align: center;
+  }
+  
+  .fotoCircular {
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    border: 3px solid #79B433;
+    margin: 3em;
+  }
+  
+  .fotoCircular1 {
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    border: 3px solid #79B433;
+    margin: 0em 3em 0em 3em;
+  }
+  
+  .post {
+    /* margin-top: rem; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 10%;
+    flex-wrap: wrap;
+  
+  }
+  
+  
+  
+  .navTercero {
+    height: 40rem;
+    width: 100%;
+    /* position: inherit; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 14rem;
+  }
+  
+  .ultimaParte {
+    padding: 3em;
+    flex-wrap: wrap;
+  }
+  
+  .ultimaParte>div {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  
+  .ultimaParteIzquierda {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #79B433;
+    color: white;
+    text-align: center;
+  }
+  
+  .ultimaImagen {
+    max-height: 20rem;
+    max-width: 20rem;
+  }
+  
+  .White {
+    height: 3rem;
+    width: 10rem;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    background: white;
+    color: #79B433;
+  }
+  
+  .ultimaParteFooter {
+    height: 4rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #F7F7F7;
+    color: #79B433;
+    text-align: center;
+    padding: 6rem;
+    flex-wrap: wrap;
+    margin-top: 11rem;
+    /* padding: 10rem;
+    padding: 1rem; */
+    /* margin-top: 5rem; */
+  }
+  
+  .ultimaParteDerecha {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #F7F7F7;
+    text-align: center;
+    font-size:0.5rem;
+  }
+  
+  .column {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  
+  .padding {
+    padding: 3em;
+  }
+  
+  .marginTop {
+    margin-top: 2em;
+  }
+  
+  .spaceBetween {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  
+  .sectionContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 2px;
+  }
+  
+  .parteIzquierda {
+    max-width: 50%;
+  }
+  
+  .parteDerecha {
+    max-width: 50%;
+  
+  }
+  
+  .parteDerecha {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .parteDerecha input {
+    width: 15rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    height: 2rem;
+  }
+  
+  .texto {
+    width: 15rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 1.5rem;
+  }
+  
+  .fotoCircular1 {
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    border: 3px solid #79B433;
+    margin: 3em;
+  }
+  
+  .empresa {
+    /* background-color: #72BB24; */
+    height: 6rem;
+    width: 100%;
+    color: #EEFFD9;
+    /* box-shadow: 0rem 5px 5px 0rem black; */
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    padding: 1rem;
+    background-image: url(componentes/fotos/servicios1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .empresa>* {
+    background-color: #72BB24;
+  }
+  
+  .empresa h2 {
+    float: right;
+    padding: 2.1rem 1rem 1rem 1rem;
+    margin-right: 40rem;
+    margin-top: 4.1rem;
+  }
+  
+  .empresap {
+    background-color: #D7FFC4;
+    padding: 2rem 5rem 2rem 5rem;
+  }
+  
+  .empresa1{
+    background-color: red;
+    height: 6rem;
+    width: 100%;
+    /* display: inline-flex; */
+    background-image: url(componentes/fotos/servicios3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+  }
+  
+  .empresa1>*{
+    background-color: #72BB24;
+  }
+  
+  .empresa1 h2{
+    color: #D7FFC4;
+  }
+  
+  .empresa1 h2:nth-child(1){
+    float:left;
+    padding: 2.1rem 1rem 1rem 1rem;
+    margin-top: 3rem;
+    margin-left: 20rem;
+  }
+  
+  .empresa1 h2:nth-child(2){
+    float: right;
+    padding: 2.1rem 1rem 1rem 1rem;
+    margin-top: 3rem;
+    margin-right: 20rem;
+  }
+  
+  .empresap1{
+    background-color: #D7FFC4;
+    padding: 2rem 5rem 2rem 5rem;
+    height: 9rem;
+  
+  }
+  
+  .empresap1 p:nth-child(1){
+    float: left;
+    margin-left: 2rem;
+    text-align: center;
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: -10rem;
+  }
+  
+  .empresap1 p:nth-child(2){
+    float:right;
+    margin-right: 2rem;
+    text-align: center;
+    width: 15rem;
+    margin-top:1rem;
+    margin-right: -10rem;
+  }
+  
+  .doctores {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5rem;
+  }
+  
+  .doctores1{
+    text-align: center;
+  }
+  
+  footer{
+    border-top: 1px solid black;
+    padding: 2rem;
+  }
+  
+  .comentarioFace{
+    text-align: center;
+    width: 50rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    -webkit-box-shadow: 0px 5px 5px 0px black;
+            box-shadow: 0px 5px 5px 0px black;
+  }
+  
+  .comentarioFace h2{
+    color: blue;
+  }
+  
+  
+  .comentarioFace{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background-color: white;
+    text-align: left;
+  }
+
+  iframe{
+    width: 18rem;
+    height: 20rem;
+  }
+  
+  .nombre{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 2rem;
+  }
+  
+  .ultimoNosotros{
+    background-image: url(componentes/fotos/dentistas4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1rem;
+  }
+  
+  .navTerceroEscondido {
+    height: 25rem;
+    width: 18rem;
+    position: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    visibility: hidden;
+    position: fixed;
+    z-index: 5000;
+    background: #79B433;
+    border: 1px solid black;
+    border-radius: 15px;
+    top: 1rem;
+    left: 1rem;
+    overflow:scroll;
+  }
+  
+  .icono{
+    cursor: pointer;
+  }
+ }

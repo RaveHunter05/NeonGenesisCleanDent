@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.general{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+.parteIzquierda img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border: 1px solid transparent;
+
+}
+
+.izquierdaTop{
+    display: block;
+    width: 15rem;
+    background: #73BC24;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+.izquierdaBot{
+    display: block;
+    width: 15rem;
+    height: 30rem;
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    background-color:#686868;
+    color: white;
+}
+
+.izquierdaBot i{
+    margin-right: 1rem;
+}
+
+.izquierdaBot>div:hover{
+    color: lightblue;
+}
+
+.parteDerecha{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+
+
+}
+
+.derechaTop{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 7rem;
+    padding: 0px 2rem 0px 2rem;
+    background-color: lightgray;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.derechaTop img{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    /* padding: 1rem; */
+    /* margin-top: 0.6rem; */
+}
+
+.derechaBottom{
+    padding:2rem;
+}
+
+.derechaBottom>div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.derechaBottom div>h4{
+    margin-right: 2rem;
+}
+
+.span{
+    float: right;
+    margin-right: 30px;
+
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+thead{
+    background:#73BC24;
+}
+
+th{
+
+    padding: 0.5rem;
+}
+
+.cancelar,.posponer , .agregar {
+    float: right;
+    margin: 3rem 2rem 0rem 2rem;    
+    display: -webkit-box;    
+    display: -ms-flexbox;    
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; 
+    -ms-flex-item-align: center; 
+        align-self: center;
+
+    height: 2rem;
+    padding: 1rem;
+    text-align: center;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+
+
+}
+
+.agregar i, .cancelar i, .posponer i{
+    color: #73BC24;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.contenedor{
+    width: 50rem;
+    background: red; 
+    background: whitesmoke;
+    border:1px solid black;
+    padding: 1rem;
+    height: 29rem;
+    overflow:scroll;
+    border-radius: 15px;
+}
+
+.contenedor img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;    
+}
+
+.mensaje{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 1px solid black;
+    margin: 1rem;   
+    border-radius: 30px;
+}
+
+.contenidoMedio{
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem;
+}
+
+.contenidoMedio input{
+    height: 3rem;
+    width: 18rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    border:1px solid black;
+}
+
+.elecciones{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.elecciones i{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.elecciones i:nth-child(1){
+    color: green;
+}
+
+.elecciones i:nth-child(2){
+    color: red;
+}
+
+.elecciones i:nth-child(3){
+    color: yellow;
+}
+
+.formulario{
+    width: 20rem;
+    margin: 0 auto;
+    /* background: red; */
+    padding:2rem;
+    text-align: center;
+
+}
+
+.llene{
+    width: 20rem;
+    border: 1px solid #73BC24;
+    fill: #73BC24;
+    padding: 0.5rem;
+    border-radius: 15px;
+    margin: 0.5rem;
+}
+
+.button{
+    display: block;
+    background: #73BC24;
+    color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.sexo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.formulario input{
+    border: 1px solid #73BC24;
+    
+}

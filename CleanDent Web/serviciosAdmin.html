@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+
+    <div class="general">
+        <div class="parteIzquierda">
+            <div class="izquierdaTop">
+                <img src="componentes/fotos/walter white.jpg" alt="" onclick="admin()">
+                <h3>Walter White</h3>
+                <h4>Gerente general</h4>
+            </div>
+            <div class="izquierdaBot">
+                <div id="perfil" onclick="perfil()">
+                    <i class="fas fa-user"></i>
+                    <label for="">Perfil</label>
+                </div>
+                <div id="citas" onclick="citas()">
+                    <i class="fas fa-calendar-alt"></i>
+                    <label for="">Citas</label>
+                </div>
+                <div id="servicios" onclick="servicios()">
+                    <i class="fas fa-tools"></i>
+                    <label for="">Servicios</label>
+                </div>
+                <div id="mensajes" onclick="mensajes()">
+                    <i class="fas fa-envelope"></i>
+                    <label for="">Mensajes</label>
+                </div>
+                <div id="agregar" onclick="agregar()">
+                    <i class="fas fa-user-plus"></i>
+                    <label for="">Agregar usuario</label>
+                </div>
+                <div id="cerrar" onclick="cerrar()">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <label for="">Cerrar sesion</label>
+                </div>
+            </div>
+        </div>
+        <div class="parteDerecha">
+            <div class="derechaTop">
+                <div>
+                    <h2><span id="hora">04:15</span> pm</h2>
+                    <label for="">Lunes, 12 de agosto 2019</label>
+                </div>
+                <div>
+                    <img src="componentes/fotos/image2vector.svg" alt="">
+                </div>
+                <div>
+                    <h4>1,688 visitas</h4>
+                </div>
+            </div>
+            <div class="derechaBottom">
+                <h2>
+                    Servicios
+                </h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Nombre</th>
+                            <th>Descripcion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1-</th>
+                            <th>Rehabilitacion protestica</th>
+                            <th>Es un procedimiento clinico dirigido
+                                a restituir dientes
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>2-</th>
+                            <th>Endodoncia</th>
+                            <th>Es un procedimiento clinico dirigido
+                                a restituir dientes
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>3-</th>
+                            <th>Ortodoncia</th>
+                            <th>Es un procedimiento clinico dirigido
+                                a restituir dientes
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>4-</th>
+                            <th>Odontopediatria</th>
+                            <th>Es un procedimiento clinico dirigido
+                                a restituir dientes
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>5-</th>
+                            <th>Implantes dentales</th>
+                            <th>Es un procedimiento clinico dirigido
+                                a restituir dientes
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>6-</th>
+                            <th>Odontologia estetica</th>
+                            <th>Es un procedimiento clinico dirigido
+                                a restituir dientes
+                            </th>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+
+                <section>
+                    <div class="agregar">
+
+                        <i class="fas fa-plus-square"></i>
+
+                        <label for="">Agregar servicio</label>
+                    </div>
+                    <div class="cancelar">
+                        <i class="far fa-window-close"></i>
+
+                        <label for="">Cancelar</label>
+                    </div>
+
+                </section>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript/todo.js"></script>
+    <script src="https://kit.fontawesome.com/f6a5d6affa.js"></script>
+</body>
+
+</html>

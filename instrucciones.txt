@@ -1,0 +1,11 @@
+Hay 2 tipos de usuarios, para ingresar los datos son los siguientes:
+
+Admin=>
+
+	usuario: walter
+	contraseña: 1234
+
+Usuario =>
+	
+	usuario: jesse
+	contraseña:1234
