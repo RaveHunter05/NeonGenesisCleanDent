@@ -3,9 +3,12 @@ var usuario = document.querySelector("#texto");
 var password = document.querySelector("#contrasena");
 var hora=document.querySelector("#hora");
 var recorrido=document.querySelector("#recorrido");
+var minimizar=document.getElementsByClassName("fa-instagram");
 
 
-
+minimizar.addEventListener("click", function(){
+    document.getElementById('parte2').style.visibility="hidden";
+})
 
 
 function formulario() {

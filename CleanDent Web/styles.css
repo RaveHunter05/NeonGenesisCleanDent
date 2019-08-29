@@ -104,6 +104,7 @@ li a {
 }
 
 
+
 #parte1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -131,6 +132,7 @@ li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  
   -webkit-box-flex: 0.3;
       -ms-flex: 0.3;
           flex: 0.3;
@@ -192,6 +194,8 @@ body {
 
 
 }
+
+
 
 .primerito2 {
 
@@ -311,13 +315,15 @@ h1 {
 
 
 #parte2 li {
-  display: block;
+  /* display: block; */
   width: 100%;
   text-align: center;
   padding: 1rem;
   color: #79B433;
-
+flex:auto;
 }
+
+
 
 .imagenFondo {
   /* background: #fff fixed no-repeat 50% 50%; */
@@ -630,6 +636,10 @@ h3 {
           flex: 1;
 }
 
+.facebook{
+  text-align: center;
+}
+
 .padding {
   padding: 3em;
 }
@@ -772,6 +782,7 @@ h3 {
   background-color: #D7FFC4;
   padding: 2rem 5rem 2rem 5rem;
   height: 9rem;
+  
 
 }
 
@@ -913,8 +924,10 @@ footer{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    /* -ms-flex-wrap: wrap;
+        flex-wrap: wrap; */
+  flex-direction: column;
+
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -924,9 +937,9 @@ footer{
     /* background: none; */
     color: #79B433;
     line-height: none;
-    position: fixed;
+    position: absolute;
     --tamaño:21rem;
-    width: var(--tamaño);
+    width: 20rem;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -934,13 +947,15 @@ footer{
     vertical-align: baseline;
     letter-spacing: 0ch;
     word-spacing: 0px;
-    flex-direction: row;
+    
   }
   
   #parte2{
     /* overflow: hidden; */
     /* flex-wrap: wrap; */
     /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
     overflow: hidden;
   }
   
@@ -948,6 +963,8 @@ footer{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  flex-direction: column;
+
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-align: center;
@@ -1028,6 +1045,8 @@ footer{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  flex-direction: column;
+
     -webkit-box-flex: 0.3;
         -ms-flex: 0.3;
             flex: 0.3;
@@ -1038,7 +1057,7 @@ footer{
     /* background: none; */
     background: #F7F7F7;
     /* esto hay que cambiar para el efecto junto con el primero */
-  
+
   }
   
   
@@ -1208,12 +1227,11 @@ footer{
   
   
   #parte2 li {
-    display: block;
     width: 100%;
     text-align: center;
     padding: 1rem;
     color: #79B433;
-  
+    flex: auto;
   }
   
   .imagenFondo {
@@ -1379,7 +1397,7 @@ footer{
   }
   
   .navSegundo {
-    height: 40em;
+    height: 20em;
     width: var(--tamaño);
     position: inherit;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -1662,39 +1680,39 @@ footer{
     float:left;
     padding: 2.1rem 1rem 1rem 1rem;
     margin-top: 3rem;
-    margin-left: 20rem;
+    margin-left: 10rem;
   }
   
   .empresa1 h2:nth-child(2){
     float: right;
     padding: 2.1rem 1rem 1rem 1rem;
-    margin-top: 3rem;
-    margin-right: 20rem;
+    margin-top: 10rem;
+    margin-right: 12rem;
   }
   
   .empresap1{
     background-color: #D7FFC4;
     padding: 2rem 5rem 2rem 5rem;
-    height: 9rem;
-  
+    height: 9 rem;
+    
   }
   
   .empresap1 p:nth-child(1){
-    float: left;
+    /* float: left; */
     margin-left: 2rem;
     text-align: center;
-    width: 15rem;
-    margin-top: 1rem;
-    margin-left: -10rem;
+    /* width: 15rem; */
+    margin-top: -16rem;
+    margin-left: 0rem;
   }
   
   .empresap1 p:nth-child(2){
-    float:right;
+    /* float:right; */
     margin-right: 2rem;
     text-align: center;
-    width: 15rem;
+    /* width: 15rem; */
     margin-top:1rem;
-    margin-right: -10rem;
+    margin-right: 0rem;
   }
   
   .doctores {
@@ -1710,6 +1728,7 @@ footer{
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 5rem;
+    flex-wrap: wrap;
   }
   
   .doctores1{
@@ -1785,4 +1804,35 @@ footer{
   .icono{
     cursor: pointer;
   }
+ 
  }
+
+ @media all and(max-width:400px){
+  .header{
+    display: flex;
+    text-align: center;
+    position: inherit;
+  }
+  #parte2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-flex: 0.3;
+        -ms-flex: 0.3;
+            flex: 0.3;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 1rem;
+    /* background: none; */
+    background: #F7F7F7;
+    /* esto hay que cambiar para el efecto junto con el primero */
+  
+  }
+
+  .separar{
+    margin-top: 2000px;
+  }
+
+}
